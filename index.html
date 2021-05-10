@@ -1,124 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Mohammads Portfolio</title>
+</head>
 
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-</style>
 </head>
 <body>
 
-<!-- MAIN (Center website) -->
+<!-- main -->
 <div class="main">
 
-<h1>MYLOGO.COM</h1>
-<hr>
-
-<h2>PORTFOLIO</h2>
-<p>Resize the browser window to see the responsive effect.</p>
-
-<!-- Portfolio Gallery -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="./Assets/mountain.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
+  
+  <h1>Mohammad Sarfaraz Hussain</h1>
+  <hr>
+  
+  <ul>
+    <li><a class="active" href="#top">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact me">Contact</a></li>
+  </ul>
+  
+  <h2>About Me</h2>
+  <p>My name is Mohammad Sarfaraz Hussain. I am a aspiring software engineer with a focus in full stack engineering. I am 26 years old.</p>
+  <hr>
+  <br>
+  <h2>These are my projects:</>
+  
+  
+  <div class="content">
+    <section id="projects"></section>
+    <a href="https://github.com/MSarfarazH/Eventr">
+    <img src="./Assets/stars.jpg" alt="Stars" style="width:100%">
+    <h3>Eventr</h3>
+    </a>
   </div>
+    
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+      <a href="https://github.com/MSarfarazH/VisualExplorerRailsApp">
+      <img src="./Assets/mountain.jpg" alt="Mountains" style="width:100%">
+      <h3>Javascript</h3>
+      </div>
+      </a>
+    </div>
+
   <div class="column">
+    <a href="https://github.com/MSarfarazH/rails-index-show-new-create-lab">
     <div class="content">
     <img src="./Assets/castle.jpg" alt="Castle" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Ruby</h3>
+    </a>
     </div>
   </div>
+
   <div class="column">
+    <a href="https://msarfarazh.github.io/HTML-CSS-and-Git-Code-Refactor/">
     <div class="content">
     <img src="./Assets/snow.jfif" alt="snow" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Refactoring Code</h3>
+    </a>
     </div>
   </div>
+
   <div class="column">
+    <a href="https://www.python.org/">
     <div class="content">
-    <img src="./Assets/underwater.jpg" alt="underwater" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+    <img  src="./Assets/underwater.jpg" alt="underwater" style="width:100%">
+      <h3>Python</h3>
+    </a>
     </div>
+
   </div>
+
 <!-- END GRID -->
 </div>
 
-<div class="content">
-  <img src="./Assets/stars.jpg" alt="Stars" style="width:100%">
-  <h3>Some Other Work</h3>
-  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+<div class="footer">
+  <section id="contact me">
+  <p>Contact me</p>
+  <p> m.s.hussain@outlook.com</p>
+  <p>(512) 605 - 9034</p>
 </div>
-
 <!-- END MAIN -->
 </div>
 
