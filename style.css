@@ -98,7 +98,7 @@ p {
 
   padding: 10px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #000000;
   margin: 20px;
 }
 .content2 {
@@ -107,7 +107,7 @@ p {
   height: 245px;
   padding: 10px;
   flex: 0 0 300px;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px #000000;
   margin: 20px;
 }
 
